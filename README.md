@@ -17,5 +17,5 @@ In this assignment, students were to design web pages for an online speciality s
 ![screencapture-file-C-Users-garia-Documents-Fall-2023-SYST10049-Assignments-Assignment-1-cart-html-2025-01-27-12_16_07](https://github.com/user-attachments/assets/a15c3195-9565-4a25-bb56-a86a06f8fe1f)
 
 ## Thoughts/Comments: 
-When the professor said we were able to do basically whatever product, I knew I wanted to do a furniture store like Ikea. I remember drafting a rough idea of what I wanted this website to look like and I am super happy with the way things turned out. If you have not noticed yet, I am a big Studio Ghibli fan. 
+When the professor said we were able to do basically whatever product, I knew I wanted to do a furniture store like Ikea. I remember drafting a rough idea of what I wanted this website to look like and I am super happy with the way things turned out. If you have not noticed yet, I am a big Studio Ghibli fan. This assignment was purely for aesthetic purposes only. Thank you to w3schools honestly. 
 
