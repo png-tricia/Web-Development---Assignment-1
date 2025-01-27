@@ -1,0 +1,204 @@
+<!-- 
+    Name: Patricia Gariando
+    Student ID: 991 446 494 
+    Date: Oct 10 2023 
+    Summary: Shopping Cart
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="website.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- the following stylesheet was recommended by W3Schools -->
+    <title>Shopping Cart | Cuarto</title>
+</head>
+
+<body>
+    <!-- promo -->
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="center">
+            <h1 style="text-align: left;">Cuarto<span class="small"> /room/</span></h1>
+            <ul>
+                <li><a href="indexx.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Seasonal</a></li>
+                <li><a href="">Catalogue</a></li>
+                <li><a href="">Discounts</a></li>
+                <li style="float:right;"><a class="active" href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+                <li style="float:right;"><a href=""><i class="fa fa-user"></i></a></li>
+                <li style="float:right;"><a href=""><i class="fa fa-heart-o"></i></a></li>
+                <li class="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <input type="text" placeholder="looking for something ..." name="search" size="50">
+                </li> <!-- adding a search bar -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- BODY -->
+    <div class="body">
+        <div class="center">
+            <h3 style="text-align: left; padding-left: 15px; color: #C2A887;">Greetings, from the Cuarto team!</h3>
+            <div class="row">
+                <h1 style="text-align: left; padding-left: 15px; color: #C2A887;">shopping cart</h1>
+                <div class="cart"> <!-- one item in the shopping cart -->
+                    <img src="product1.jpeg">
+                    <span>
+                        <h3>Mahogany Coffee Table</h3>
+                        <p style="font-size: 15px;">Product ID: 203.04.302</p>
+                        <p style="font-size: 15px;">Quantity: 1</p>
+                        <h3 style="float: right; margin: 15px;">$200.00</h3>
+                        <button type="submit">-</button>
+                        <button type="submit">+</button>
+                        <button type="submit">Remove</button>
+                        <button type="submit">Save For Later</button>
+                    </span>
+                </div>
+                <div class="cart"> <!-- one item in the shopping cart -->
+                    <img src="product2.jpg">
+                    <span>
+                        <h3>Woven Chair</h3>
+                        <p style="font-size: 15px;">Product ID: 193.93.092</p>
+                        <p style="font-size: 15px;">Quantity: 2</p>
+                        <h3 style="float: right; margin: 15px;">$150.00</h3>
+                        <button type="submit">-</button>
+                        <button type="submit">+</button>
+                        <button type="submit">Remove</button>
+                        <button type="submit">Save For Later</button>
+                    </span>
+                </div>
+                <div class="cart"> <!-- one item in the shopping cart -->
+                    <img src="product3.jpg">
+                    <span>
+                        <h3>Pine Tree Pair Mugs</h3>
+                        <p style="font-size: 15px;">Product ID: 840.26.894</p>
+                        <p style="font-size: 15px;">Quantity: 3</p>
+                        <h3 style="float: right; margin: 15px;">$30.00</h3>
+                        <button type="submit">-</button>
+                        <button type="submit">+</button>
+                        <button type="submit">Remove</button>
+                        <button type="submit">Save For Later</button>
+                    </span>
+                </div>
+                <div class="cart"> <!-- one item in the shopping cart -->
+                    <img src="product4.jpg">
+                    <span>
+                        <h3>Cotton Weave Diamond Sheet</h3>
+                        <p style="font-size: 15px;">Product ID: 874.51.624</p>
+                        <p style="font-size: 15px;">Quantity: 1</p>
+                        <h3 style="float: right; margin: 15px;">$50.00</h3>
+                        <button type="submit">-</button>
+                        <button type="submit">+</button>
+                        <button type="submit">Remove</button>
+                        <button type="submit">Save For Later</button>
+                    </span>
+                </div>
+                <div class="cart"> <!-- one item in the shopping cart -->
+                    <img src="product5.jpg">
+                    <span>
+                        <h3>Bonsai Tree</h3>
+                        <p style="font-size: 15px;">Product ID: 125.94.812</p>
+                        <p style="font-size: 15px;">Quantity: 1</p>
+                        <h3 style="float: right; margin: 15px;">$100.00</h3>
+                        <button type="submit">-</button>
+                        <button type="submit">+</button>
+                        <button type="submit">Remove</button>
+                        <button type="submit">Save For Later</button>
+                    </span>
+                </div>
+                <div class="summary">
+                    <h2>summary</h2>
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>Price:</td>
+                            <td style="float: right;">$530.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tax:</td>
+                            <td style="float: right;">13%</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Fee:</td>
+                            <td style="float: right;">$50.00</td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>Subtotal:</td>
+                            <td style="float: right;">$648.90</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="text-align: right;">proceed to checkout<span style="padding-left: 10px;"><a href=""><i class="fa fa-arrow-circle-right"></i></a></span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About, Help, Social Media, Contact, Subscribe -->
+    <div class="footer">
+        <div class="center">
+            <div class="row">
+                <div class="columnOne">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="">History</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Collaboration</a></li>
+                        <li><a href="">Showrooms</a></li>
+                        <li><a href="">Become a Member</a></li>
+                    </ul>
+                </div>
+                <div class="columnOne">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="">Shipping Policy</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Stores</a></li>
+                    </ul>
+                </div>
+                <div class="columnOne icons">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.pinterest.ca/"><i class="fa fa-pinterest-p"></i></a></li>
+                    </ul>
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Phone:<a href=""> 888 518 3415</a></li>
+                        <li>Email:<a href=""> team@cuarto.ca</a></li>
+                    </ul>
+                </div>
+                <div class="columnTwo">
+                    <h3>Subscribe</h3>
+                    <p style="font-size: 15px;">
+                        Sign up for our weekly newsletter and recieve a 25% OFF coupon for your next purchase. Be part
+                        of the community and share your ideas in our forum.</p>
+                    <input type="text" placeholder="Email Address ..." name="Email Address">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+            <br>
+            <p style="font-size: 13px;">Copyright © 2023. Cuarto | Terms of Service | Search</p>
+            <img style="position: fixed; bottom: 10px; right: 10px;" src="support.png" alt="penguin saying hello gif"
+                width="75px" height="auto"> <!-- Customer Service -->
+        </div>
+    </div>
+</body>
+
+</html>
