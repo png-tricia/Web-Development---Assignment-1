@@ -1,7 +1,6 @@
 ## SYST10049 Web Development - Assignment 1
 Program: **Computer Programming @ Sheridan College** <br>
 Note: The following assignment was completed during Semester 1 (2023) <br>
-Languages: HTML, CSS 
 
 ## The Task:
 In this assignment, students were to design web pages for an online speciality store. The store must specialize in a particular product or type of product that the student have some kind of personal interest in. Try to make it specialized enough so that there is no other exisiting store quite like it. 
